@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glad2Glow</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/glad2glow.png"
+    />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <h1>
+          <span class="letter">G</span><span class="letter">L</span
+          ><span class="letter letter-a">A</span
+          ><span class="letter letter-d">D</span><span class="letter">2</span
+          ><span class="letter">G</span><span class="letter">L</span
+          ><span class="letter">O</span><span class="letter">W</span
+          ><span class="dot">.</span>
+        </h1>
+        <p>BEAUTY EXPERT</p>
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#home" class="active">HOME</a></li>
+          <li><a href="#featured">FEATURED PRODUCT</a></li>
+          <li><a href="#sale">SALE</a></li>
+          <li><a href="#glowcare">GLOWCARE</a></li>
+          <li><a href="#" class="login-btn">LOGIN NOW</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <!-- section 1 -->
+    <div class="container" id="home">
+      <div class="main-content">
+        <div class="brand-logo">BEAUTY</div>
+        <h1 class="main-title">Glow like<br />never before!</h1>
+        <button class="cta-button" onclick="shopNow()">SHOP NOW</button>
+      </div>
+      <div class="products-container">
+        <div class="product product-1">
+          <img src="assets/images1/handbody.png" />
+        </div>
+        <div class="product product-2">
+          <img src="assets/images1/masker.png" />
+        </div>
+        <div class="product product-3">
+          <img src="assets/images1/micellar_water.png" alt="Face Cream Jar" />
+        </div>
+        <div class="product product-4">
+          <img src="assets/images1/moist.png" alt="Foundation Cream" />
+        </div>
+        <div class="product product-5">
+          <img src="assets/images1/serum.png" alt="Essence Bottle" />
+        </div>
+        <div class="product product-6">
+          <img src="assets/images1/cushion.png" alt="Toner Bottle" />
+        </div>
+        <div class="product product-5">
+          <img src="assets/images1/lip.png" alt="Essence Bottle" />
+        </div>
+      </div>
+    </div>
+    <!-- end section 1 -->
+
+    <!-- section 2 -->
+    <section class="featured" id="featured">
+      <h2 class="section-title">Featured Product</h2>
+      <div class="product-container">
+        <div class="product-card">
+          <img src="assets/images2/masker_paket.jpeg" alt="Product 1" />
+          <h3>FACE MASK</h3>
+          <p class="price">Rp 45.000</p>
+          <a href="#" class="link">Lihat Detail →</a>
+        </div>
+        <div class="product-card">
+          <img src="assets/images2/micellar_paket.jpeg" alt="Product 2" />
+          <h3>TONER</h3>
+          <p class="price">Rp 42.000</p>
+          <a href="#" class="link">Lihat Detail →</a>
+        </div>
+        <div class="product-card">
+          <img src="assets/images2/moist_paket.jpeg" alt="Product 3" />
+          <h3>MOISTURIZER</h3>
+          <p class="price">Rp 41.000</p>
+          <a href="#" class="link">Lihat Detail →</a>
+        </div>
+        <div class="product-card">
+          <img src="assets/images2/serum_pket.jpeg" alt="Product 4" />
+          <h3>SERUM</h3>
+          <p class="price">Rp 37.000</p>
+          <a href="#" class="link">Lihat Detail</a>
+        </div>
+        <div class="product-card">
+          <img src="assets/images2/paket5_g2g.jpeg" alt="Product 5" />
+          <h3>PAKET GLAD2GLOW</h3>
+          <p class="price">Rp 156.000</p>
+          <a href="#" class="link">Lihat Detail →</a>
+        </div>
+      </div>
+    </section>
+    <!-- End section 2 -->
+
+    <!-- Section 3 -->
+    <section class="spring-sale-section" id="sale">
+      <div class="spring-sale-container">
+        <div class="spring-sale-text">
+          <h1>Spring Beauty Sale</h1>
+          <h2>Up to <strong>40% Off</strong></h2>
+          <p>
+            Stock up on your favorite springtime beauty must-haves. Limited time
+            only. Discover exclusive offers on skincare, makeup, and more.
+          </p>
+          <div class="spring-sale-buttons">
+            <a href="#" class="btn shop-now">SHOP NOW</a>
+            <a href="#" class="btn learn-more">LEARN MORE</a>
+          </div>
+        </div>
+        <div class="spring-sale-image">
+          <img src="assets/image3/cushion.png" alt="Product Group 1" />
+          <img src="assets/image3/bedak_g2g.png" alt="Product Group 2" />
+        </div>
+      </div>
+    </section>
+    <!-- End Section 3 -->
+
+    <!-- Section 4 -->
+    <section class="card-list-section" id="glowcare">
+      <div class="card-list-container">
+        <div class="product-card">
+          <img src="assets/images4/bedak_g2g.png" alt="Milk Cleanser" />
+          <div class="card-content">
+            <span class="category">Make up</span>
+            <h3 class="product-title">Tampil Cerah dalam Sekejap</h3>
+            <p class="product-desc">
+              Compact powder dari Glad2Glow yang siap memberikan hasil akhir
+              cerah, halus, dan flawless. Nggak perlu bingung lagi, cukup pilih
+              Shadenya!.
+            </p>
+            <p class="product-footer">glad2glow.com | reviews 8.5/10 ★</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images4/eye_g2g.png" alt="Moist Cream" />
+          <div class="card-content">
+            <span class="category">Skincare</span>
+            <h3 class="product-title">Rawat Area Mata Tanpa Drama</h3>
+            <p class="product-desc">
+              Eye cream lembut dari Glad2Glow membantu mengurangi lingkar hitam
+              & garis halus. Formulanya cepat meresap, ringan, dan aman untuk
+              kulit sensitif.
+            </p>
+            <p class="product-footer">glad2glow.com | reviews 9.0/10 ★</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="assets/images4/shade_g2g.png" alt="Serum Glow" />
+          <div class="card-content">
+            <span class="category">Skincare</span>
+            <h3 class="product-title">Kulit Cerah, Lembap, dan Glowing</h3>
+            <p class="product-desc">
+              Krim wajah lembut yang cocok untuk kulit sensitif. Memberikan
+              kelembapan alami dan kilau sehat setiap hari — tanpa iritasi!.
+            </p>
+            <p class="product-footer">glad2glow.com | reviews 9.7/10 ★</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End section 4 -->
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-info">
+          <a href="https://id.shp.ee/7rU1LRM" class="info-item">
+            <img
+              src="assets/icons/shopee.png"
+              alt="Store Icon"
+              class="info-img"
+            />
+            <p>SHOPEE<br /><span>Makeup & Skincare</span></p>
+          </a>
+          <a
+            href="https://www.tiktok.com/@glad2glow_id?_t=ZS-8xgU8tWX13n&_r=1"
+            class="info-item"
+          >
+            <img
+              src="assets/icons/tiktok.png"
+              alt="Tutorial Icon"
+              class="info-img"
+            />
+            <p>TIKTOK<br /><span>Makeup & Kulitmu</span></p>
+          </a>
+          <!-- <a href="about.html" class="info-item">
+              <img src="assets/icons/glad2glow.png" alt="Glad2Glow Icon" class="info-img" />
+              <p>ABOUT<br><span>Glad2Glow</span></p>
+            </a> -->
+        </div>
+        <div class="footer-social">
+          <a
+            href="https://linktr.ee/glad2glowofficial?fbclid=PAZXh0bgNhZW0CMTEAAafnutVLe3OZN_GkIxrryOsOzuOnvQ2o7dbd4HOSIKRquiA67AYN9awD-8V7Jg_aem_gIR2ysC0sHa4dRCOWolUDw"
+          >
+            <i class="fas fa-tags"></i>
+          </a>
+
+          <a href="https://id.shp.ee/7rU1LRM"><i class="fas fa-store"></i></a>
+          <a
+            href="https://www.instagram.com/glad2glow?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script>
+      function createSparkle() {
+        const sparkle = document.createElement("div");
+        sparkle.className = "sparkle";
+        sparkle.style.left = Math.random() * 100 + "%";
+        sparkle.style.top = Math.random() * 100 + "%";
+        sparkle.style.animationDelay = Math.random() * 2 + "s";
+        document.body.appendChild(sparkle);
+        setTimeout(() => {
+          if (sparkle.parentNode) {
+            sparkle.parentNode.removeChild(sparkle);
+          }
+        }, 2000);
+      }
+      setInterval(createSparkle, 500);
+
+      function shopNow() {
+        const button = document.querySelector(".cta-button");
+        button.style.transform = "scale(0.95)";
+        setTimeout(() => {
+          button.style.transform = "scale(1)";
+        }, 150);
+        console.log("Redirecting to shop...");
+      }
+      document.querySelectorAll(".product").forEach((product) => {
+        product.addEventListener("mouseenter", function () {
+          this.style.pointerEvents = "auto";
+          this.style.transform = "scale(1.1)";
+        });
+        product.addEventListener("mouseleave", function () {
+          this.style.transform = "scale(1)";
+        });
+      });
+      document.addEventListener("mousemove", (e) => {
+        const products = document.querySelectorAll(".product");
+        const x = e.clientX / window.innerWidth - 0.5;
+        const y = e.clientY / window.innerHeight - 0.5;
+        products.forEach((product, index) => {
+          const speed = (index + 1) * 0.5;
+          product.style.transform += ` translate(${x * speed}px, ${
+            y * speed
+          }px)`;
+        });
+      });
+
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navLinks.classList.remove("active");
+        });
+      });
+
+      const backToTopButton = document.getElementById("backToTop");
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.add("show");
+        } else {
+          backToTopButton.classList.remove("show");
+        }
+      });
+
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
+  </body>
+</html>
